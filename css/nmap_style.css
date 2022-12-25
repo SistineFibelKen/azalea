@@ -1,0 +1,73 @@
+.hide{
+	width: 100%;
+	height: 200px;
+}
+
+.mapcontent{
+	width: 100%;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.map{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+
+.mappng{
+	width: 50%;
+	height: 100%;
+
+}
+
+
+.process{
+	width: 70%;
+	height: 15px;
+	border: 1px solid black;
+	border-radius: 15px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 5px;
+}
+
+.long{
+	width: 15%;
+	height: 15px;
+	border-radius: 15px;
+	background: linear-gradient(to right,#00d0ff,#0054ff);
+	animation: long 2s ease-out;
+}
+
+@keyframes long{
+	from{
+		width: 0%;
+	}
+	to{
+		width: 15%;
+	}
+}
+
+.readmore{
+	text-align: center;
+}
+
+.button{
+	border-radius: 5px;
+	border: 1px solid black;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: linear-gradient(to bottom,#ffffff,#fff5cb);
+	transition: all 2s;
+}
+
+.button:hover{
+	background: linear-gradient(to bottom,#ffffff,#d6ff72);
+}
+
+.button:active{
+	background: linear-gradient(to bottom,#ffffff,#ff9672);
+}

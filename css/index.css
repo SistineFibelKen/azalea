@@ -27,7 +27,7 @@
 	height: 300px;
 	border-radius: 30px;
 	background-color: rgba(255, 255, 255, 0.3);
-	border-bottom: 1px solid gray;
+	border: 1px solid gray;
 	transition: all 1s
 }
 
@@ -51,7 +51,7 @@
 }
 
 .text1{
-	font-weight: bold;
+	font-weight: normal;
 	font-size: 20px;
 	padding-left: 10%;
 	padding-top: 5%;
@@ -73,7 +73,7 @@
 .img-Ling{
 	width: 100%;
 	height: 200px;
-	border: 5px solid wheat;
+	border: 5px solid lightblue;
 	border-radius: 100%;
 	background: url(../img/99131356_1.png);
 	background-size: 100%
@@ -89,12 +89,60 @@
 	}
 }
 
-/* 页脚 */
+/* 内容2 */
 
-.footer{
+.img-longken{
 	width: 100%;
-	height: 70px;
-	background-color: dimgrey;
-	text-align: center;
-	color: white;
+	height: 200px;
+	border: 5px solid lightseagreen;
+	border-radius: 100%;
+	background: url(../img/2221038595.jpg);
+	background-size: 100%
+}
+
+.img-longken:hover{
+	animation: route2 1s;
+}
+
+@keyframes route2 {
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.jump1{
+	border-radius: 20px;
+	color: black;
+	transition: all 1s
+}
+
+.jump1:hover{
+	background-color: beige;
+	color: deepskyblue;
+	font-style: italic;
+}
+
+.jump1:active{
+	color: firebrick;
+}
+
+/* 内容3 */
+
+.img-donate{
+	width: 100%;
+	height: 200px;
+	border: 5px solid lightyellow;
+	border-radius: 100%;
+	background: url(../img/77151248_p3.jpg);
+	background-size: 100%
+}
+
+.img-donate:hover{
+	animation: route3 1s;
+}
+
+@keyframes route3 {
+	100%{
+		transform: rotate(360deg);
+	}
 }
