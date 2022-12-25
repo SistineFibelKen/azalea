@@ -1,0 +1,22 @@
+.hide{
+	height: 800px;
+}
+
+.hide2{
+	height: 30px;
+}
+/* 内容页 */
+
+.content{
+	width: 100%;
+	height: 1000px;
+	background: rgba(255, 255, 255, 0.9);
+}
+
+/* 页脚 */
+
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: dimgrey;
+}
