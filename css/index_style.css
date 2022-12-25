@@ -7,7 +7,7 @@ body{
 	background-size: 100%;
 }
 
-/* 顶部 */
+/* 顶部动画 */
 
 .header{
 	width: 100%;
@@ -16,7 +16,30 @@ body{
 	border-radius: 2px;
 	opacity: 90%;
 	position: fixed;
+	animation: load-header 1s;
 }
+
+@keyframes load-header{
+	0% {
+		opacity: 0;
+	    transform: translate(0px, -30px);
+	}
+	33% {
+		opacity: 0.3;
+	    transform: translate(0px, -20px);
+	}
+	66% {
+		opacity: 0.6;
+	    transform: translate(0px, -10px);
+	}
+	100% {
+		opacity: 1;
+	    transform: translate(0px, 0px);
+	}
+}
+
+
+/* 顶部 */
 
 .navleft{
 	float: left;
@@ -35,6 +58,7 @@ body{
 .navtitle{
 	padding-left: 20px;
 	padding-right: 20px;
+	transition: all 0.5s;
 }
 
 .navnow{

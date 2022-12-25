@@ -9,14 +9,92 @@
 
 .content{
 	width: 100%;
-	height: 1000px;
-	background: rgba(255, 255, 255, 0.9);
+	height: 1100px;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+/* 内容1 */
+
+.about-web{
+	height: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.web-1{
+	width: 100%;
+	height: 300px;
+	border-radius: 30px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-bottom: 1px solid gray;
+	transition: all 1s
+}
+
+.web-1:hover{
+	background-color: rgba(255, 255, 255, 1);
+	transform: translateY(-10px);
+	border-bottom: 5px solid gray;
+}
+
+.aw-content{
+	width: 60%;
+	height: 200px;
+	float: left;
+	padding-left: 10%;
+}
+
+.aw-pic{
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+
+.text1{
+	font-weight: bold;
+	font-size: 20px;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-right: 5%;
+}
+
+.hide-text{
+	background-color: rgba(255, 255, 255, 0.2);
+	color: rgba(0, 0, 0, 0);
+	transition: all 1s
+}
+
+.hide-text:hover{
+	background-color: rgba(0, 0, 0, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+
+.img-Ling{
+	width: 100%;
+	height: 200px;
+	border: 5px solid wheat;
+	border-radius: 100%;
+	background: url(../img/99131356_1.png);
+	background-size: 100%
+}
+
+.img-Ling:hover{
+	animation: route 1s;
+}
+
+@keyframes route {
+	100%{
+		transform: rotate(360deg);
+	}
 }
 
 /* 页脚 */
 
 .footer{
 	width: 100%;
-	height: 300px;
+	height: 70px;
 	background-color: dimgrey;
+	text-align: center;
+	color: white;
 }
