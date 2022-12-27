@@ -1,0 +1,44 @@
+/* 需要更新的图片，换源就行 */
+
+.message-pic-1{
+	width: 95%;
+	height: 200px;
+	border: 3px solid salmon;
+	border-radius: 100%;
+	background: url(../img/74363812_1.png);
+	background-size: 100%;
+	transition: all 0.6s; 
+}
+
+.message-pic-1:hover{
+	background-size: 120%;
+}
+
+
+.message-pic-2{
+	width: 95%;
+	height: 200px;
+	border: 3px solid salmon;
+	border-radius: 100%;
+	background: url(../img/Map-attach.png);
+	background-size: 100%;
+	transition: all 0.6s; 
+}
+
+.message-pic-2:hover{
+	background-size: 120%;
+}
+
+.message-pic-3{
+	width: 95%;
+	height: 200px;
+	border: 3px solid salmon;
+	border-radius: 100%;
+	background: url(../img/website.png);
+	background-size: 100%;
+	transition: all 0.6s; 
+}
+
+.message-pic-3:hover{
+	background-size: 120%;
+}
