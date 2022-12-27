@@ -1,0 +1,88 @@
+.hide{
+	height: 400px;
+}
+
+.content{
+	height: auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding-bottom: 100px;
+	transition: all 1s;
+}
+
+.content:hover{
+	background-color: rgba(255, 255, 255, 0.95);
+}
+
+.warn{
+	color: red;
+	font-weight: bold;
+}
+
+.hint{
+	padding-top: 50px;
+	width: 50%;
+	margin: 0 auto;
+	line-height: 30px;
+}
+
+.novel-title-box{
+	width: 50%;
+	height: 70px;
+	margin: 0 auto;
+	line-height: 70px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.auther-box{
+	padding-top: 20px;
+	width: 50%;
+	margin: 0 auto;
+	text-align: right;
+}
+
+.intro-box{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.list{
+	font-size: 25px;
+}
+
+/* 章节列表 */
+.n-list-box{
+	padding-top: 10px;
+	width: 50%;
+	height: 30px;
+	margin: 0 auto;
+	transition: all 0.5s;
+}
+
+.n-list-box:hover{
+	border-bottom: 1px solid skyblue;
+}
+
+.n-title{
+	float: left;
+}
+
+.n-uptime{
+	float: right;
+}
+
+a{
+	color: black;
+	transition: all 0.5s;
+}
+
+a:hover{
+	color: goldenrod;
+}
+
+a:active{
+	color: indianred;
+}

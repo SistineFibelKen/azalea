@@ -34,7 +34,7 @@
 }
 
 .long{
-	width: 15%;
+	width: 15%; /*在这里调整进度*/
 	height: 15px;
 	border-radius: 15px;
 	background: linear-gradient(to right,#00d0ff,#0054ff);
